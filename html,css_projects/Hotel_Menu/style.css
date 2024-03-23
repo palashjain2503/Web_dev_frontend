@@ -1,0 +1,154 @@
+body{
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.YtzdzGdcFJVYae_bO0H5AAHaEo&pid=Api&P=0&h=180");
+    background-size: cover;
+}
+h2{
+    color: rgb(129, 37, 37);
+    padding: 0px;
+    margin: 10px;
+}
+h3{
+    text-shadow: 2px 2px 2px rgb(171, 63, 63);
+    margin:2% 2% 2% 2%;
+    color: rgb(129, 37, 37);
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(43, 40, 40);
+    
+}
+h1{
+    margin:10px;
+    color: rgb(129, 37, 37);
+    display:block;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0vh;
+    width:37vw;
+    height:9vh;
+    text-align: center;
+    border:0.55rem double rgb(0, 0, 0);
+    outline: 0.4rem solid rgba(139, 28, 173, 0.3);
+   
+}
+.menu{
+    box-shadow: 0px 0px 100px black;
+    border: 8px solid rgb(0, 0, 0);
+    outline: 5px solid rgba(179, 38, 222, 0.7);
+    margin-left: 50vh;
+    display: flex;
+    flex-direction: column;
+    width:50vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(189, 187, 187, 0.8);
+    backdrop-filter: blur(5px);
+}
+
+  
+.heading{
+    color: rgb(43, 40, 40);
+    text-shadow: 4px 4px 4px rgb(171, 63, 63);
+}
+.item{
+    text-shadow: 1.25px 1.25px 2px rgb(61, 59, 59);
+    box-shadow: 2px 2px 2px rgb(48, 47, 47);
+    border-radius: 4%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2.75rem;
+    width:47vw;
+    border: 3px solid black;
+    font-weight: 800;
+    color: rgb(129, 37, 37);
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition:all 0.2s ease-in-out 0.1s;
+   
+}
+.item:hover
+{
+    text-shadow: 1px 1px 2px rgb(206, 67, 67);
+    box-shadow: 6px 6px 6px rgb(43, 40, 40);
+    color: rgb(0, 0, 0);
+    font-size: 1.6rem;
+    background-color: rgba(179, 70, 27, 0.445);
+    transform: scale(1.08);
+}
+.item:active
+{
+    color: rgb(201, 195, 195);
+    background-color: rgba(34, 16, 16, 0.3);
+    transform: scale(0.99); 
+}
+.preveiw_button{
+    text-shadow: 1px 1px 1px grey;
+    margin-top: 0px;
+    margin-bottom: 1.5vh;
+    display: inline-block;
+    width: 7vw;
+    font-size: 12px;
+    color: rgb(5, 5, 5);
+    background-color: rgb(216, 95, 61,0.6);
+}
+.preveiw_button:hover ,.plus:hover, .minus:hover{
+    transform: scale(1.15); 
+}
+.plus
+{
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.kLIHH9LdPzX-ERgJLJ_-tgHaHa&pid=Api&P=0&h=180");
+    background-size: cover;
+    width:1.5vw;
+    height:2.5vh;
+}
+.minus
+{
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.hpnQoi77f6MclMjwiKrVywHaHa&pid=Api&P=0&h=180");
+    background-size: cover;
+    width:1.5vw;
+    height:2.5vh;
+}
+
+@keyframes man {
+    from{
+        
+        transform: translateX(100vw);
+        
+    }
+    to{
+        
+        transform: translateX(-100vw);
+        
+    }
+}
+
+.moving_text{
+    color: rgb(255, 255, 255,0.7);
+    animation: man 7s linear 1s infinite normal;
+}
+.pop_up{
+  display: block;
+   background-color: rgb(0,0,0,0.7);
+    margin-bottom: 5vh;
+    height: 5vh;
+    width: 100vw;
+    font-size: 1rem;
+     
+  
+   
+}
+.info{
+    display: block;
+    color: rgb(255,255,255,0.7);
+    background-color: rgb(0, 0, 0,0.7);
+    margin-top: 5vh;
+    height: 5vh;
+    width: 100vw;
+    font-size: 1.5rem;
+    
+}
+
+
