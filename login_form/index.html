@@ -3,19 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS 1</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
 </head>
 <body>
-    <div id="navbar">
-       <a id="logo" target="_main" href="https://www.wikipedia.org/">Amazon.in</a>
-       <a id="account" target="_main" href="https://mail.google.com/">Account</a>
-       <a id="cart" target="_main" href="https://classroom.google.com/?pli=1">My Cart</a>
-       <a id="contact" target="_main" href="https://www.google.com/maps/@19.0514787,72.8869
-       927,15z?entry=ttu">Contact Us</a>
-       
-     <input placeholder="search item">
-     <button>search</button>  
-    </div>
+    <form>
+    <div class="login_box"><B><h1 class="heading">LOGIN DETAILS</H1><br>
+      <div class="item"> NAME : <input type="text" placeholder="ENTER FULL NAME" required></div> 
+      <br>
+        <div class="item">
+           GENDER : <input type="radio" name= "GENDER" value="MALE" required>MALE
+        <input type="radio" name= "GENDER" value="FEMALE">FEMALE
+        <input type="radio" name= "GENDER" value="OTHER">OTHER
+   
+        </div> 
+        <br>
+        <div class="item">AGE :
+            <select name="age" id="age" aria-placeholder="SELECT AGE" required>
+             <option value="" disabled selected>SELECT YOUR AGE</option>    
+            <option value="under 18">UNDER 18</option>
+            <option value="over 18">OVER 18</option>
+            </select>
+            </option></div> 
+            <br>
+       <div class="item"> PASSWORD : <input type="password"></div>
+       <br>
+              <div class="item"><input class="submit" type="submit"></div> 
+    </B></div>
+    </form>
 </body>
 </html>
